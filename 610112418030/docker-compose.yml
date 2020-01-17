@@ -1,0 +1,8 @@
+version: '3'
+sevvices:
+  web:
+    image: php:7.2-apache
+    volumes:
+      - ./wwww:/var/www/html
+    prots:
+  	  - '3000:80'
